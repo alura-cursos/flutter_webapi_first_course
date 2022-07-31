@@ -12,7 +12,9 @@ class JournalCard extends StatelessWidget {
   Widget build(BuildContext context) {
     if (journal != null) {
       return InkWell(
-        onTap: () {},
+        onTap: () {
+          //TODO: Implementar edição da entrada
+        },
         child: Container(
           height: 115,
           margin: const EdgeInsets.all(8),
@@ -79,7 +81,9 @@ class JournalCard extends StatelessWidget {
       );
     } else {
       return InkWell(
-        onTap: () {},
+        onTap: () {
+          Navigator.pushNamed(context, 'add-journal');
+        },
         child: Container(
           height: 115,
           alignment: Alignment.center,
