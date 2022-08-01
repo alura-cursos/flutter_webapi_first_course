@@ -10,8 +10,8 @@ void main() {
 
   //TODO: Remover testes
   JournalService journalService = JournalService();
-  journalService.register(Journal.empty());
-  //journalService.get();
+  //journalService.register(Journal.empty());
+  journalService.getAll();
 }
 
 class MyApp extends StatelessWidget {
