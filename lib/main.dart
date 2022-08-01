@@ -37,13 +37,17 @@ class MyApp extends StatelessWidget {
       initialRoute: "home",
       routes: {
         "home": (context) => const HomeScreen(),
-        "add-journal": (context) => AddJournalScreen(
-              journal: Journal(
-                  id: "AAAA",
-                  content: "",
-                  createdAt: DateTime.now(),
-                  updatedAt: DateTime.now()),
-            ),
+      },
+      onGenerateRoute: (routeSettings) {
+        if (routeSettings.name == "add-journal") {
+          final journal = routeSettings.arguments as Journal;
+          return MaterialPageRoute(
+            builder: (context) {
+              return AddJournalScreen(journal: journal);
+            },
+          );
+        }
+        return null;
       },
     );
   }
