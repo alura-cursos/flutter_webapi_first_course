@@ -10,7 +10,7 @@ void main() {
 
   //TODO: Remover testes
   JournalService journalService = JournalService();
-  journalService.register("Olá mundo!");
+  journalService.register(Journal.empty());
   //journalService.get();
 }
 

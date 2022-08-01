@@ -1,5 +1,17 @@
 {
-  "learnhttp": {
-    "content": "Olá mundo!"
-  }
+  "learnhttp": {},
+  "journals": [
+    {
+      "id": "034aaab0-1134-11ed-82a3-0d9d4edbc20e",
+      "content": "",
+      "created_at": "2022-08-01 00:51:00.959009",
+      "updated_at": "2022-08-01 00:51:00.959021"
+    },
+    {
+      "id": "fb49c200-1134-11ed-b529-07eb171acb55",
+      "content": "",
+      "created_at": "2022-08-01 00:57:57.028788",
+      "updated_at": "2022-08-01 00:57:57.028800"
+    }
+  ]
 }
