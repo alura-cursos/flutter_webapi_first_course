@@ -83,6 +83,7 @@ class JournalCard extends StatelessWidget {
     } else {
       return InkWell(
         onTap: () {
+          //TODO: Modularizar operação
           Navigator.pushNamed(
             context,
             'add-journal',
@@ -92,7 +93,21 @@ class JournalCard extends StatelessWidget {
               createdAt: showedDate,
               updatedAt: showedDate,
             ),
-          );
+          ).then((value) {
+            if (value == true) {
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(
+                  content: Text("Registro salvo com sucesso."),
+                ),
+              );
+            } else {
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(
+                  content: Text("Houve uma falha ao registar."),
+                ),
+              );
+            }
+          });
         },
         child: Container(
           height: 115,
