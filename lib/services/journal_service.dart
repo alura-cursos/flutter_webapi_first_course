@@ -18,12 +18,15 @@ class JournalService {
     return "$url$resource";
   }
 
-  //TODO: Substituir getURL por getURI
+  Uri getUri() {
+    return Uri.parse(getURL());
+  }
+
   Future<bool> register(Journal journal) async {
     String journalJSON = json.encode(journal.toMap());
 
     http.Response response = await client.post(
-      Uri.parse(getURL()),
+      getUri(),
       headers: {'Content-type': 'application/json'},
       body: journalJSON,
     );
@@ -36,7 +39,7 @@ class JournalService {
   }
 
   Future<List<Journal>> getAll() async {
-    http.Response response = await client.get(Uri.parse(getURL()));
+    http.Response response = await client.get(getUri());
 
     if (response.statusCode != 200) {
       //TODO: Criar uma exceção personalizada
@@ -49,8 +52,6 @@ class JournalService {
     for (var jsonMap in jsonList) {
       result.add(Journal.fromMap(jsonMap));
     }
-
-    print(result.length);
 
     return result;
   }

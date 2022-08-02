@@ -14,7 +14,7 @@ class Journal {
   });
 
   Journal.empty()
-      : id = Uuid().v1(),
+      : id = const Uuid().v1(),
         content = "",
         createdAt = DateTime.now(),
         updatedAt = DateTime.now();

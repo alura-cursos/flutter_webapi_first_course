@@ -18,9 +18,7 @@ class _AddJournalScreenState extends State<AddJournalScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-            // TODO: Modularizar isso no helper
-            "${WeekDay(widget.journal.createdAt.weekday).long.toLowerCase()}, ${widget.journal.createdAt.day} do ${widget.journal.createdAt.month} de ${widget.journal.createdAt.year}"),
+        title: Text(WeekDay(widget.journal.createdAt).toString()),
         actions: [
           IconButton(
             onPressed: () {
@@ -48,7 +46,13 @@ class _AddJournalScreenState extends State<AddJournalScreen> {
     JournalService journalService = JournalService();
     widget.journal.content = contentController.text;
     journalService.register(widget.journal).then((value) {
-      Navigator.pop(context, value);
+      if (value) {
+        Navigator.pop(context, DisposeStatus.success);
+      } else {
+        Navigator.pop(context, DisposeStatus.error);
+      }
     });
   }
 }
+
+enum DisposeStatus { exit, error, success }
