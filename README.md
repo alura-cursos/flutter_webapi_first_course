@@ -1,16 +1,50 @@
-# flutter_webapi_first_course
+![Thumbnail GitHub](https://raw.githubusercontent.com/alura-cursos/flutter_webapi_first_course/main/Card%20Web.png)
 
-Projeto do primeiro curso de WebAPI da Formação Flutter
+# Flutter: Web API
 
-## Getting Started
+Esse curso de Flutter vai te ensinar a: 
 
-This project is a starting point for a Flutter application.
+-> ??
 
-A few resources to get you started if this is your first Flutter project:
+-> ??
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-> ??
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-> ??
+
+-> ??
+
+
+## 🔨 Projeto: ??
+
+O projeto do curso consiste em [criar uma nova tela ao projeto Organizador de Tarefas], com o intuito de [produzir um formulário que adiciona uma nova tarefa customizada]!
+
+![](https://raw.githubusercontent.com/alura-cursos/alura_flutter_curso_2/master/flutter2_gif.gif)
+
+## ✔️ Técnicas e tecnologias
+
+**Veja mais de perto o que você aprenderá sobre** :
+- `!!!`: ???
+- `!!!`: ???
+- `!!!`: ???
+- `!!!`: ???
+- `!!!`: ???
+- `!!!`: ???
+- `!!!`: ???
+- `!!!`: ???
+
+
+
+## 🛠️ Abrir e rodar o projeto
+
+**Para executar este projeto você precisa:**
+
+- Ter uma IDE, que pode ser o  [Android Studio](https://developer.android.com/) instalado na sua máquina
+- Ter a [SDK do Flutter](https://docs.flutter.dev/get-started/install) na versão 3.0.0
+
+
+## 📚 Mais informações do curso
+
+Gostou do projeto e quer conhecer mais? Você pode [acessar o curso]() que desenvolve o projeto desde o começo!
+
+Esse curso faz parte da [formação de Flutter da Alura](https://cursos.alura.com.br/formacao-flutter)
