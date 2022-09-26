@@ -1,39 +1,21 @@
-![Thumbnail GitHub](https://raw.githubusercontent.com/alura-cursos/flutter_webapi_first_course/main/Card%20Web.png)
+![Thumbnail GitHub](https://github.com/alura-cursos/flutter_webapi_first_course/raw/main/thumbnail01.png)
 
-# Flutter: Web API
-
-Esse curso de Flutter vai te ensinar a: 
-
--> ??
-
--> ??
-
--> ??
-
--> ??
-
--> ??
-
-
-## 🔨 Projeto: ??
-
-O projeto do curso consiste em [criar uma nova tela ao projeto Organizador de Tarefas], com o intuito de [produzir um formulário que adiciona uma nova tarefa customizada]!
-
-![](https://raw.githubusercontent.com/alura-cursos/alura_flutter_curso_2/master/flutter2_gif.gif)
+Repositório do Curso de Flutter com Web API - Integrando sua Aplicação, da Alura. 
 
 ## ✔️ Técnicas e tecnologias
 
 **Veja mais de perto o que você aprenderá sobre** :
-- `!!!`: ???
-- `!!!`: ???
-- `!!!`: ???
-- `!!!`: ???
-- `!!!`: ???
-- `!!!`: ???
-- `!!!`: ???
-- `!!!`: ???
+- `API`: O que é e como funciona uma API e sua relação com a internet;
+- `http`: O que é o Protocolo HTTP e também a Biblioteca HTTP do Dart;
+- `async/await`: Como usar o `async` e o `await` para requisições que são operações assíncronas;
+- `interceptors`: O que é e como usar um interceptador HTTP;
+- `logger`: O que é e como usar um logger para melhor visualização no console;
 
+## 🔨 Projeto: Simple Journal
 
+O código de Flutter: Web API - Integrando sua Aplicação são **Classes** e **Funções** para gerar uma aplicação de um **Diário pessoal**, que **registra entradas diárias** da pessoa usuária do aplicativo.
+
+![]()
 
 ## 🛠️ Abrir e rodar o projeto
 
@@ -42,9 +24,16 @@ O projeto do curso consiste em [criar uma nova tela ao projeto Organizador de Ta
 - Ter uma IDE, que pode ser o  [Android Studio](https://developer.android.com/) instalado na sua máquina
 - Ter a [SDK do Flutter](https://docs.flutter.dev/get-started/install) na versão 3.0.0
 
-
 ## 📚 Mais informações do curso
 
-Gostou do projeto e quer conhecer mais? Você pode [acessar o curso]() que desenvolve o projeto desde o começo!
+Gostou do projeto e quer conhecer mais? Você pode [acessar o curso](https://cursos.alura.com.br/course/flutter-webapi-integrando-aplicacao) que desenvolve o projeto desde o começo! Nele você aprenderá:
+
+- O que é uma Web API
+- Configurar uma API Local
+- Configurar um projeto Flutter para fazer requisições para APIs
+- O que é e como usar REST e JSON
+- Métodos do HTTP como GET e POST
 
 Esse curso faz parte da [formação de Flutter da Alura](https://cursos.alura.com.br/formacao-flutter)
+
+*Te vejo lá!*
