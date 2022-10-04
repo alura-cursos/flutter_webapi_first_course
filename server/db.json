@@ -24,6 +24,18 @@
       "content": "And she never wanted to leave",
       "created_at": "2022-07-30 20:15:11.127928",
       "updated_at": "2022-07-30 20:15:11.127928"
+    },
+    {
+      "id": "5b38bc40-440a-11ed-b5ae-736ddef7083f",
+      "content": "Hoje eu estudei bastante Flutter!",
+      "created_at": "2022-10-03 14:29:39.068520",
+      "updated_at": "2022-10-03 14:29:39.068520"
+    },
+    {
+      "id": "654d4d40-440a-11ed-b5ae-736ddef7083f",
+      "content": "Eita, esqueci de anotar que aqui eu comecei a Formaço Flutter!",
+      "created_at": "2022-09-28 14:29:39.068520",
+      "updated_at": "2022-09-28 14:29:39.068520"
     }
   ]
 }

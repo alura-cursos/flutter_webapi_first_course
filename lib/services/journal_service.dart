@@ -7,7 +7,8 @@ import 'package:http_interceptor/http/http.dart';
 import '../models/journal.dart';
 
 class JournalService {
-  static const String url = "http://192.168.0.11:3000/";
+  // Consiga seu IP usando o comando "ipconfig" no Windows ou "ifconfig" no Linux.
+  static const String url = "http://SEU_IP_AQUI:3000/";
   static const String resource = "journals/";
 
   http.Client client = InterceptedClient.build(
