@@ -15,7 +15,7 @@ Repositório do Curso de Flutter com Web API - Integrando sua Aplicação, da Al
 
 O código de Flutter: Web API - Integrando sua Aplicação são **Classes** e **Funções** para gerar uma aplicação de um **Diário pessoal**, que **registra entradas diárias** da pessoa usuária do aplicativo.
 
-![]()
+![GIF animado demonstrando funcionalidades do projeto](https://github.com/alura-cursos/flutter_webapi_first_course/raw/main/gif01.gif)
 
 ## 🛠️ Abrir e rodar o projeto
 
